@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ViewController from 'components/ViewController';
 
-export const App = (props) => {
-    return (
-        <p>Here!</p>
-    )
-}
+export const App = (props) => (
+  <ViewController />
+);
 
 export default App;
