@@ -1,0 +1,18 @@
+.navigation { 
+  width: 100vw;
+  background: #dddddd;
+  padding: 0.75rem 0.5rem;
+}
+
+.navigation .navigation__item a {
+  color: #0074D9;
+  font-weight: bold;
+}
+
+.navigation .navigation__item a:hover, .navigation .navigation__item a:focus {
+  color: #001f3f;
+}
+
+.navigation .navigation__item a:visited {
+  color: #663399;
+}

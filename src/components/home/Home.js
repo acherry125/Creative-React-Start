@@ -1,7 +1,10 @@
 import React from 'react';
+import _ from 'lodash';
 
 const Home = (props) => (
-  <p>Home</p>
-);
+  <div>
+    <p>Home page</p>
+  </div>
+); 
 
 export default Home;
